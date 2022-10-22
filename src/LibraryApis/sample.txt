@@ -1,0 +1,2 @@
+﻿This is a content
+from the sample file
