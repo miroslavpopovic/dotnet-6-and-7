@@ -1,0 +1,16 @@
+﻿@page "/query-parameter"
+
+<h3>Parameter from query</h3>
+
+<form>
+    <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" class="form-control default-focus" id="name" @bind="Name"/>
+    </div>
+</form>
+
+@code {
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string Name { get; set; }
+}

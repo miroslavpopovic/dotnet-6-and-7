@@ -1,0 +1,8 @@
+﻿<button class="btn btn-warning" @onclick="PerformAction">Cause error</button>
+
+@code {
+    private void PerformAction()
+    {
+        throw new InvalidOperationException("Test");
+    }
+}

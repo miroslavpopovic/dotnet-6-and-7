@@ -1,0 +1,18 @@
+﻿@page "/errorboundary"
+<h3>ErrorBoundary Sample</h3>
+
+
+<ErrorBoundary>
+    <ChildContent>
+        <ErrorBoundaryChild/>
+    </ChildContent>
+    <ErrorContent>
+        <div class="alert alert-danger">
+            Hey! Something failed!
+        </div>
+    </ErrorContent>
+</ErrorBoundary>
+
+@code {
+
+}

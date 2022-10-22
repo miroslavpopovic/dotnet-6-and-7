@@ -1,0 +1,24 @@
+﻿@page "/multiple-select"
+<h3>Multiple select</h3>
+
+<form>
+    <div class="mb-3">
+        <label for="platforms" class="form-label">Platforms:</label>
+        <select class="form-control default-focus" multiple="multiple" id="platforms" @bind="SelectedPlatforms">
+            <option value="Android">Android</option>
+            <option value="iOS">iOS</option>
+            <option value="macOS">macOS</option>
+            <option value="Windows">Windows</option>
+            <option value="Web">Web</option>
+        </select>
+    </div>
+</form>
+
+<p>
+    Selected:<br/>
+    @string.Join(", ", SelectedPlatforms)
+</p>
+
+@code {
+    private string[] SelectedPlatforms { get; set; } = { };
+}
