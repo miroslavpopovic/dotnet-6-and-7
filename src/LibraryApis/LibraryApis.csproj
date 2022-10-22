@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="DotNet6\" />
-    <Folder Include="DotNet7\" />
   </ItemGroup>
 
   <ItemGroup>
