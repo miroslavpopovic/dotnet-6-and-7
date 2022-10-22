@@ -1,4 +1,4 @@
-﻿namespace CSharp.DotNet6;
+﻿namespace CSharp.Version10;
 
 public readonly record struct Point(double X, double Y);
 

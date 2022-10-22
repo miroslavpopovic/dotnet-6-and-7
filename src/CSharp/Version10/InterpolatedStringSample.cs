@@ -1,4 +1,4 @@
-﻿namespace CSharp.DotNet6;
+﻿namespace CSharp.Version10;
 
 public static class InterpolatedStringSample
 {
