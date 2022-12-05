@@ -6,6 +6,7 @@ The sample code and a separate presentation for ASP.NET Core Minimal APIs is ava
 
 ## Presentations
 
+- [December 2022, Sinergija 22](2022-12-sinergija-whats-new-in-dotnet-world.pptx)
 - [October 2022, NetWork 10](2022-10-network-whats-new-in-dotnet-world.pptx)
 
 ## License
